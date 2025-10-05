@@ -1,0 +1,24 @@
+{
+  "name": "mfrechette-tp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathieu-Frechette/mfrechette-tp1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathieu-Frechette/mfrechette-tp1/issues"
+  },
+  "homepage": "https://github.com/Mathieu-Frechette/mfrechette-tp1#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  }
+}

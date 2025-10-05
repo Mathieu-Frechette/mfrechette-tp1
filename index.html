@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoiseOff - Critique du Sony WH-1000XM5</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body data-bs-theme="dark">
+    <header class="bg-primary text-center text-white py-4 shadow">
+      <i class="bi bi-headphones display-4"></i>
+      <h1 class="fw-bold mt-2">NoiseOff</h1>
+      <p class="text-light">Critique du Sony WH-1000XM5 — L’art du silence absolu</p>
+    </header>
+
+    <main class="container my-5">
+      <section class="text-center mb-5">
+        <h2 class="text-primary mb-3">Présentation</h2>
+        <p>
+          Le Sony WH-1000XM5 redéfinit les standards des casques à réduction de bruit. Son design minimaliste et sa technologie audio avancée en font une
+          référence incontournable pour les audiophiles. Polyvalent, moderne et confortable, il combine élégance et performance.
+        </p>
+        <img src="./assets/wh1000xm5.jpg" alt="Sony WH-1000XM5" class="img-fluid rounded shadow my-3" />
+      </section>
+
+      <section class="mb-5">
+        <h2 class="text-primary mb-3 text-center">Critique complète</h2>
+        <div class="card bg-dark text-white p-4 shadow">
+          <p>
+            Le Sony WH‑1000XM5 s’impose comme l’un des meilleurs casques à réduction de bruit du marché. Son design épuré, sa finition douce au toucher et son
+            confort exceptionnel le rendent agréable à porter pendant des heures, que ce soit au bureau ou en déplacement.
+          </p>
+          <p>
+            Côté audio, Sony livre une performance impressionnante : les basses sont puissantes sans être lourdes, les médiums bien équilibrés et les aigus
+            précis. Que vous écoutiez du jazz, du pop ou des podcasts, le son reste clair et immersif. La réduction de bruit, elle, est tout simplement
+            bluffante, coupant presque totalement le monde extérieur.
+          </p>
+          <p>
+            Le casque se démarque aussi par ses fonctions intelligentes — comme la pause automatique quand on le retire ou la connexion à deux appareils à la
+            fois. L’application Sony Headphones Connect permet d’ajuster facilement les réglages audio selon vos préférences.
+          </p>
+          <p>
+            Avec 30 heures d’autonomie et une recharge rapide très pratique, le WH‑1000XM5 est un compagnon idéal pour ceux qui recherchent la tranquillité et
+            la qualité. Son seul vrai défaut reste son prix élevé, mais il est largement justifié par la qualité globale de l’expérience.
+          </p>
+          <div class="d-flex align-items-center mt-4 justify-content-center">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+            <span class="ms-2">4.5 / 5</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5">
+        <h2 class="text-primary mb-4 text-center">Avantages et Inconvénients</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="text-success"><i class="bi bi-hand-thumbs-up"></i> Avantages</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-check-circle text-success"></i> Réduction de bruit exceptionnelle</li>
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-check-circle text-success"></i> Autonomie de 30h</li>
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-check-circle text-success"></i> Confort premium</li>
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-check-circle text-success"></i> Qualité sonore haut de gamme</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-danger"><i class="bi bi-hand-thumbs-down"></i> Inconvénients</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-x-circle text-danger"></i> Prix élevé</li>
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-x-circle text-danger"></i> Design non pliable</li>
+              <li class="list-group-item bg-dark text-light"><i class="bi bi-x-circle text-danger"></i> Commandes tactiles parfois sensibles</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-5 text-center">
+        <h2 class="text-primary mb-4">Galerie</h2>
+        <button type="button" class="btn btn-primary px-4 py-2 rounded-pill" data-bs-toggle="modal" data-bs-target="#galerieModal">Voir les images</button>
+      </section>
+
+      <div class="modal fade" id="galerieModal" tabindex="-1" aria-labelledby="galerieModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content bg-dark text-light border-0">
+            <div class="modal-header border-secondary">
+              <h5 class="modal-title" id="galerieModalLabel">Galerie du Sony WH-1000XM5</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+              <div id="carouselGalerie" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/sony_produit_1.jpeg" class="d-block w-100 rounded" alt="Sony WH-1000XM5 angle 1" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sony_produit_2.jpeg" class="d-block w-100 rounded" alt="Sony WH-1000XM5 angle 2" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sony_produit_3.jpeg" class="d-block w-100 rounded" alt="Sony WH-1000XM5 angle 3" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sony_produit_4.jpeg" class="d-block w-100 rounded" alt="Sony WH-1000XM5 angle 4" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sony_produit_5.jpeg" class="d-block w-100 rounded" alt="Sony WH-1000XM5 dans son étui" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalerie" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Précédent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGalerie" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Suivant</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="my-5">
+        <h2 class="text-primary mb-3 text-center">Fiche technique</h2>
+        <table class="table table-dark table-striped">
+          <tr>
+            <th>Autonomie</th>
+            <td>30 heures</td>
+          </tr>
+          <tr>
+            <th>Poids</th>
+            <td>250 g</td>
+          </tr>
+          <tr>
+            <th>Bluetooth</th>
+            <td>5.2</td>
+          </tr>
+          <tr>
+            <th>Port de charge</th>
+            <td>USB-C</td>
+          </tr>
+          <tr>
+            <th>Réduction de bruit</th>
+            <td>Active (8 micros)</td>
+          </tr>
+          <tr>
+            <th>Codecs audio</th>
+            <td>LDAC, AAC, SBC</td>
+          </tr>
+          <tr>
+            <th>Compatibilité</th>
+            <td>iOS, Android, PC</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="my-5 text-center">
+        <div class="card bg-primary text-white p-4 shadow-lg">
+          <h3 class="fw-bold">Verdict final</h3>
+          <p class="mt-2">
+            Le Sony WH-1000XM5 est un chef-d’œuvre audio. Malgré son prix, il offre une expérience sonore et un confort inégalés — un choix idéal pour les
+            passionnés de musique et les voyageurs fréquents.
+          </p>
+          <a href="https://www.sony.ca/fr/electronics/casque-bandeau/wh-1000xm5" target="_blank" class="btn btn-light mt-3">
+            En savoir plus <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="my-5">
+        <h2 class="text-primary mb-4 text-center">Articles similaires</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card bg-dark text-light h-100 shadow">
+              <img src="./assets/bose-qc-ultra.jpg" class="card-img-top" alt="Bose QuietComfort Ultra" />
+              <div class="card-body">
+                <h5 class="card-title">Bose QuietComfort Ultra</h5>
+                <p class="card-text">Le concurrent direct de Sony, avec un confort exemplaire et une signature sonore douce.</p>
+                <a href="#" class="btn btn-primary btn-sm">Lire la critique</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-dark text-light h-100 shadow">
+              <img src="./assets/airpods-max.jpg" class="card-img-top" alt="Apple AirPods Max" />
+              <div class="card-body">
+                <h5 class="card-title">Apple AirPods Max</h5>
+                <p class="card-text">Le casque le plus luxueux d’Apple, alliant design et performances haut de gamme.</p>
+                <a href="#" class="btn btn-primary btn-sm">Lire la critique</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-dark text-light h-100 shadow">
+              <img src="./assets/momentum-4.jpg" class="card-img-top" alt="Sennheiser Momentum 4 Wireless" />
+              <div class="card-body">
+                <h5 class="card-title">Sennheiser Momentum 4 Wireless</h5>
+                <p class="card-text">Un casque élégant au son riche et précis, parfait pour les audiophiles qui recherchent une alternative haut de gamme.</p>
+                <a href="#" class="btn btn-primary btn-sm">Lire la critique</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center py-4 border-top mt-5">
+      <small>&copy; 2025 Mathieu Fréchette — TP1 Web 3 | Site NoiseOff</small>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./src/scripts.js"></script>
+  </body>
+</html>
