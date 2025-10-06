@@ -1,10 +1,11 @@
 # Dépendances npm
 node_modules/
 
-# macOS
+# macOS (pour les utilisateurs Apple)
 .DS_Store
 .AppleDouble
 .LSOverride
 
 # VS Code
 .vscode/
+coverage/
