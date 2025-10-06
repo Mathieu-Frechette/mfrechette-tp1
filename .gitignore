@@ -1,0 +1,10 @@
+# Dépendances npm
+node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/

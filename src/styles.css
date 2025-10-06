@@ -113,3 +113,9 @@ section:last-of-type {
   border-radius: 8px;
   padding: 0.5rem 1rem;
 }
+
+.avantages-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
